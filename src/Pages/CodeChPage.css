@@ -1,0 +1,76 @@
+
+.desc{
+    
+    
+    width: 70%;
+    margin: auto;
+    background-color: rgb(12, 148, 182);
+    height: 100%;
+}
+.desc p{
+    color: white;
+    width: 70%;
+  margin: auto;
+  justify-content: center;
+  align-items: center; 
+    text-align: center;
+}
+.summary{
+   padding: 4%;
+}
+.algo{
+    margin-left: 15%;
+   
+}
+.algo-form{
+    display: flex;
+   justify-content:space-evenly;
+   width: 40%;
+}
+.algo-form button{
+    border: none;
+    background-color: rgb(12, 148, 182);
+    color: white;
+    width: 10em;
+    height: 90%;
+    padding: 1%;
+}
+.algo-form input{
+    width: 20rem;
+    height: 60%;
+    border: none;
+    border-bottom: 2px solid  rgb(12, 148, 182);
+}
+.algo-form p{
+    padding: 0;
+    margin: 0;
+    font-size: smaller;
+    font-weight: lighter;
+    color: grey;
+}
+#output{
+    border: none;
+    background-color: rgb(12, 148, 182);
+    width: 4%;
+    color: white;
+    padding: 0.5em;
+}
+.notes{
+   
+    background-color: rgb(12, 148, 182);
+    width: 30%;
+    height: 100%;
+    color: white;
+    padding: 1%;
+    margin-left: 15%;
+}
+.note-parent{
+    margin-left: 3%;
+}
+.head{
+    margin-left: 3%;
+}
+
+.DataCollection{
+    margin-left: 3%;  
+}

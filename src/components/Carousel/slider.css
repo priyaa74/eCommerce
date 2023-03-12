@@ -1,0 +1,15 @@
+
+@media only screen and (max-width: 700px) {
+    .img-container{
+        height: 50vh;
+    }
+    .img-container img{
+        display: block;
+        width:100%;
+        height: auto;
+        object-fit: conver;
+    }
+    .slider-wrapper{
+        height: 25vh;
+    }
+}
