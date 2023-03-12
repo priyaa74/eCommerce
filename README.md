@@ -7,3 +7,8 @@ Features And Functionalities-
 - Cart Page
 - Profile Page
 - CodeChallenge Page
+
+## TechStack used
+
+- React
+- Redux
