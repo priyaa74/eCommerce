@@ -21,25 +21,17 @@ const UserMenu= ()=> {
 
 function Navbar() {
     const [showDiv, setShowDiv]= useState(false);
-    var counthide=0;
+   
     const handleClick=()=> {
-        if(counthide %2 ===0){
-        setShowDiv(true);
-        counthide++;
-        console.log(counthide+" &")
+        setShowDiv(!showDiv);
         }
-        else{
-        setShowDiv(false);
-        counthide++;
-        console.log(counthide);
-        }
-    }
+    
 
     const getData= useSelector((state)=> state.CartReducer.carts.length)
     
    
     return (
-        
+        <>
         <div className='Nav'>
             <div className='logo'>Logo</div>
             <div className='cart'>
@@ -52,10 +44,10 @@ function Navbar() {
                         </div>
                     </IconContext.Provider>
                 <div className='badge'>{getData}</div>
-                {showDiv ? <UserMenu/> : null}
             </div>
-
         </div>
+         {showDiv ? <UserMenu/> : null}
+         </>
     )
 }
 

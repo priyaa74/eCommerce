@@ -8,9 +8,7 @@
     width: 80vw;
     background-color: white;
     border-radius: 10px;
-    margin-bottom: 20px;
 
-    
 }
 .logo{
     height: 30px;
@@ -23,8 +21,11 @@
 
 }
   .user{
-     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.3);
+    width: 12%;
+    margin: 100px 0 0 90%;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.3);
      color: rgb(12, 148, 182);
+    
   }
 
 .navIcon{

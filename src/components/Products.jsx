@@ -3,16 +3,14 @@ import productAction from '../Redux/ProductReducer/productAction'
 import {useDispatch,useSelector} from 'react-redux'
 import ProductCard from './ProductCard';
 import './ProductCard.css'
-import { ADD } from '../Redux/CartReducer/cartAction';
+import { ADD,DLT,REMOVE } from '../Redux/CartReducer/cartAction';
 
 function Products() {
     const dispatch= useDispatch();
 
     const productData= useSelector((storeData)=>{
         return storeData.ProductReducer.products;
-        // console.log(storeData.ProductReducer.products)
     })
-
 
     useEffect(()=>{
         productAction(productData,dispatch)
@@ -32,9 +30,8 @@ function Products() {
                     category={ele.category}
                     title={ele.title}
                     price={ele.price}
-                    addToCart= {
-                        <div onClick={()=>dispatch(ADD(ele))}>Add to Cart</div>
-                    }/>
+                    addToCart= { 
+                        <div onClick={()=>dispatch(ADD(ele))}>Add to Cart</div> }/>
                 </div>
             
             )

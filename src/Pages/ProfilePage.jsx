@@ -7,7 +7,7 @@ function ProfilePage() {
     <div>
         <Navbar/>
         <div >
-            <img style={{margin:'auto 40%'}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYIQVYPsPneu1Z2jjiXe9VmC1jWD8smQ8-TQ&usqp=CAU" alt="userImg" />
+            <img style={{margin:'7% 40% 0'}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYIQVYPsPneu1Z2jjiXe9VmC1jWD8smQ8-TQ&usqp=CAU" alt="userImg" />
             <p style={{textAlign:'center'}}>mor_2314</p>
             <p style={{textAlign:'center'}}>mor_2314@gmail.com</p>
         </div>
