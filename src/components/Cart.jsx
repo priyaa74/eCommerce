@@ -40,7 +40,7 @@ function Cart() {
   return (
     <div>
     <div className='productTitle'>
-    <h2>My carts</h2>
+    <h1 style={{textAlign:'center', margin:'80px auto',fontSize:'40px'}}>My Cart</h1>
     </div>
     <div className='products'>
      { getData.length===0 ? <h1 style={{textAlign:'center'}}>Your Cart is empty...</h1>:  getData.map((ele,index)=>{

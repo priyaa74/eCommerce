@@ -20,7 +20,7 @@ function Products() {
   return (
     <div>
         <div className='productTitle'>
-        <h1 style={{textAlign:'center', margin:'30px auto',fontSize:'40px'}}>Products</h1>
+        <h1 style={{textAlign:'center', margin:'80px auto',fontSize:'40px'}}>Products</h1>
         </div>
         <div className='products'>
          {productData.map((ele,index)=>{

@@ -15,7 +15,7 @@ export default function Slider() {
   const containerStyles = {
     width: "80%",
     height: "300px",
-    margin: "0 auto",
+    margin: "70px auto",
   };
 
   return (

@@ -5,7 +5,7 @@ import { RiCloseLine } from "react-icons/ri";
 const Modal = ({ setIsOpen }) => {
   return (
     <>
-      <div className={styles.darkBG} onClick={() => setIsOpen(false)} />
+      <div className={styles.darkBG}/>
       <div className={styles.centered}>
         <div className={styles.modal}>
           <div className={styles.modalHeader}>
@@ -19,7 +19,7 @@ const Modal = ({ setIsOpen }) => {
           </div>
           <div className={styles.modalActions}>
             <div className={styles.actionsContainer}>
-              <button className={styles.cancelBtn} onClick={() => setIsOpen(false)}>
+              <button className={styles.cancelBtn} onClick={() => setIsOpen(true)}>
               Cancel
               </button>
               <button

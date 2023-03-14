@@ -1,8 +1,15 @@
 .Nav{
+    position: fixed;
+    top: 0;
+    z-index: 100;
     border: solid 2px transparent;
     display: flex;
     justify-content: space-between;
     width: 80vw;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
     
 }
 .logo{

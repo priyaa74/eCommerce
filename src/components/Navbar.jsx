@@ -14,8 +14,8 @@ const UserMenu= ()=> {
     return(<div className='user'>
     <p onClick={()=>{dispatch(logout())
     nav('/')}}>Logout</p>
-   <Link style={{textDecoration:'none'}} to='/profile'> <p>Profile</p></Link>
-    <Link style={{textDecoration:'none'}} to='/codeChallenge'><p>Code Challenge</p></Link>
+   <Link style={{textDecoration:'none',color:'rgb(12, 148, 182)'}} to='/profile'> <p>Profile</p></Link>
+    <Link style={{textDecoration:'none',color:'rgb(12, 148, 182)'}} to='/codeChallenge'><p>Code Challenge</p></Link>
 </div>)
 }
 
